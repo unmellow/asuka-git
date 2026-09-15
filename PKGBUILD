@@ -10,7 +10,7 @@
 
 _pkgname=asuka
 pkgname=asuka-git
-pkgver=0.9.0.r0.g3796f0f
+pkgver=0.9.0.r1.gf003398
 pkgrel=1
 pkgdesc="Gemini Project client written in Rust with Cursive/crossterm"
 arch=('x86_64')
