@@ -1,19 +1,18 @@
 pkgbase = asuka-git
-	pkgdesc = Gemini Project client written in Rust with NCurses
-	pkgver = 0.8.5.r0.gc23cf82
+	pkgdesc = Gemini Project client written in Rust with Cursive/crossterm
+	pkgver = 0.9.0.r0.g3796f0f
 	pkgrel = 1
-	url = https://git.sr.ht/~julienxx/asuka
+	url = https://github.com/unmellow/asuka
 	arch = x86_64
 	license = MIT
 	makedepends = cargo
 	makedepends = git
 	depends = gcc-libs
-	depends = ncurses
 	depends = openssl
-	provides = asuka=0.8.5.r0.gc23cf82
+	provides = asuka=0.9.0.r0.g3796f0f
 	conflicts = asuka
 	options = !lto
-	source = asuka::git+https://git.sr.ht/~julienxx/asuka
+	source = asuka::git+https://github.com/unmellow/asuka.git
 	sha256sums = SKIP
 
 pkgname = asuka-git
