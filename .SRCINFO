@@ -1,6 +1,6 @@
 pkgbase = asuka-git
 	pkgdesc = Gemini Project client written in Rust with Cursive/crossterm
-	pkgver = 0.9.0.r1.gf003398
+	pkgver = 0.9.0.r2.ge326759
 	pkgrel = 1
 	url = https://github.com/unmellow/asuka
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = asuka-git
 	makedepends = git
 	depends = gcc-libs
 	depends = openssl
-	provides = asuka=0.9.0.r1.gf003398
+	provides = asuka=0.9.0.r2.ge326759
 	conflicts = asuka
 	options = !lto
 	source = asuka::git+https://github.com/unmellow/asuka.git
